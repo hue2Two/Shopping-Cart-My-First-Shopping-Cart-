@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+button {
+    transition: ease-in-out 1s;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightsalmon;
+    transition: 1s;
+}
+
+button:active {
+    transform: scale(.98);
+    transition: 0.2s;
+}
+
+#cart-part-1 {
+    /* border: solid red 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart-part-1 h4 {
+    border: solid lightcoral 5px;
+    background-color: lightpink;
+    border-radius: 2px;
+}
+
+#cart-part-2 {
+    border: solid green 5px;
+    border-radius: 10px;
+}
+
+#cart-part-3 {
+    /* border: solid blue 10px; */
+}
+
+#cart-items-container {
+    /* border: solid gray 5px; */
+    padding: 5px;
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.item {
+    border: solid black 5px;
+
+    position: relative;
+    padding: 10px;
+    background-color: lightgreen;
+    
+}
+
+.visual {
+    /* border: solid pink 5px; */
+}
+
+.visual img {
+    height: 300px;
+    width: 100%;
+}
+
+.info {
+    /* border: solid purple 5px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    border-radius: 5px;
+}
+
+.info p {
+    /* border: solid orange 5px; */
+    background-color: lightyellow;
+    border-radius: 5px;
+}
+
+.info button {
+    /* border: solid yellow 5px; */
+}
+
+#showCart {
+    display: flex;
+}
+
+#cpart2-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cpart2-1 div{
+    display: flex;
+}
+
+#myTotal {
+    display: flex;
+}
+
+#cartItem-1:hover {
+    cursor: pointer;
+}
+
+#cartItem-2:hover {
+    cursor: pointer;
+}
+
+#cartItem-3:hover {
+    cursor: pointer;
+}
+
+#cartItem-4:hover {
+    cursor: pointer;
+}
+
+#cartItem-5:hover {
+    cursor: pointer;
+}
+
+#cartItem-6:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    #cart-items-container {
+        grid-template-columns: 50% 50%;
+    }
+}

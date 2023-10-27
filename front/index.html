@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--linking style sheet-->
+    <link rel ="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="cart-part-1">
+        <div>
+            <h4>Posters</h4>
+        </div>
+        <div>
+            <h4>
+                Cart
+            </h4>
+
+        </div>
+    </div>
+    <div id="cart-part-2">
+        <div id="cpart2-1">
+            <h3>Current Cart:</h3>
+            <div>
+                <button id="btnRemove">REMOVE</button>
+                <button id="btnCheckout">CHECKOUT</button>
+                <div id="myTotal">
+                    <button id="btnTotal">TOTAL</button>
+                    <p id="totalVisual">$</p>
+                </div>
+                
+            </div>
+        </div>
+        <br>
+        <p id="showCart"></p>
+    </div>
+    <div id="cart-part-3">
+        <div id="cart-items-container">
+            <div class="item item-1">
+                <div class="visual">
+                    <img src="img/aot_1.jpg">
+                </div>
+                <div class="info info-1">
+                    <p>Poster #1, $25</p>
+                    <button class="btnAdd" id="btnAdd-1"> ADD </button>
+                </div>
+            </div>
+
+            <div class="item item-2">
+                <div class="visual">
+                    <img src="img/aot_2.jpg">
+                </div>
+                <div class="info info-2">
+                    <p>Poster #2, $30</p>
+                    <button class="btnAdd" id="btnAdd-2"> ADD </button>
+                </div>
+            </div>
+
+            <div class="item item-3">
+                <div class="visual">
+                    <img src="img/aot_3.jpg">
+                </div>
+                <div class="info info-3">
+                    <p>Poster #3, $20</p>
+                    <button class="btnAdd" id="btnAdd-3"> ADD </button>
+                </div>
+            </div>
+
+            <div class="item item-4">
+                <div class="visual">
+                    <img src="img/clannad_1.jpg">
+                </div>
+                <div class="info info-4">
+                    <p>Poster #4, $25</p>
+                    <button class="btnAdd" id="btnAdd-4"> ADD </button>
+                </div>
+            </div>
+
+            <div class="item item-5">
+                <div class="visual">
+                    <img src="img/clannad_2.jpg">
+                </div>
+                <div class="info info-5">
+                    <p>Poster #5, $30</p>
+                    <button class="btnAdd" id="btnAdd-5"> ADD </button>
+                </div>
+            </div>
+
+            <div class="item item-6">
+                <div class="visual">
+                    <img src="img/clannad_3.jpg">
+                </div>
+                <div class="info info-6">
+                    <p>Poster #6, $2</p>
+                    <button class="btnAdd" id="btnAdd-6"> ADD </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="varHelper.js"></script>
+    <script src="functionsHelper.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
